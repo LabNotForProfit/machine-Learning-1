@@ -6,7 +6,7 @@ def filter_data(data, condition):
     """
     Remove elements that do not match the condition provided.
     Takes a data list as input and returns a filtered list.
-    Conditions should be a list of strings of the following format:
+    Conditions shoul	d be a list of strings of the following format:
       '<field> <op> <value>'
     where the following operations are valid: >, <, >=, <=, ==, !=
     
